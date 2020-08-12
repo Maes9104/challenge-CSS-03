@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
-:root {
-  --icon-bar-color: #9e49f9;
-}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
+  font-family: "Segoe UI Light";
   height: 100vh;
   width: 100vw;
 }
@@ -23,7 +21,7 @@ main {
   background-color: white;
 }
 .main-bar {
-  background-color: #4a35d5;
+  background-color: #1B7530;
   width: 100%;
   height: 30px;
   display: flex;
@@ -31,48 +29,52 @@ main {
   flex-direction: row-reverse;
   justify-content: flex-start;
 }
-.main-bar-shape{
-    width: 15px;
-    height: 15px;
-    background-color: var(--icon-bar-color);
-    margin-right: 10px;
-}
 .circle {
+  width: 15px;
+  height: 15px;
+  background-color:  #1b5030;
+  margin-right: 10px;
   border-radius: 50%;
 }
 .triangle {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid var(--icon-bar-color);
-    margin-right: 15px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid  #1b5030;
+  margin-right: 15px;
+}
+.square {
+  width: 15px;
+  height: 15px;
+  background-color: #1b5030;
+  margin-right: 10px;
 }
 .main-header {
-    width: 100%;
-    height: 70px;
-    background-color: #5f3def;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: #1b8030;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-left {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-    font-size: 1.5em;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.5em;
 }
 .header-left h1 {
-    font-weight: 400;;
+  font-weight: 400;;
 }
 .header-right {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
 }
